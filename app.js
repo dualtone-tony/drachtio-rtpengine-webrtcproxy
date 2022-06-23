@@ -1,6 +1,8 @@
 const Srf = require('drachtio-srf') ;
 const srf = new Srf() ;
-const logger = require('pino')();
+const logger = require('pino')({
+  level: 'debug'
+});
 const Register = require('./lib/register');
 const Registrar = require('./lib/registrar');
 const Subscriber = require('./lib/subscriber');
