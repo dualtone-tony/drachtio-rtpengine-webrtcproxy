@@ -1,0 +1,14 @@
+{
+  "drachtio": {
+    "host": "127.0.0.1",
+    "port": 9022,
+    "secret": "Lavabug87"
+  }, 
+  "rtpengine": {
+    "hostport": ["127.0.0.1:22223"],
+    "opts": {
+      "protocol": "udp",
+      "timeout": 2000
+    }
+  }
+}
